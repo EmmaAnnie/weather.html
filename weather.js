@@ -15,3 +15,7 @@ fetch("https://api.openweathermap.org/data/2.5/weather?q=Calgary&appid=9814d4960
 
     const icon = "https://openweathermap.omg/img/wn/"+data.weather[0].icon+"@2x.png";
         console.log(icon);
+
+weather
+
+    icon.src = weathericon
