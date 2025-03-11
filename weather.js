@@ -4,5 +4,5 @@ fetch("https://api.openweathermap.org/data/2.5/weather?q=Calgary&appid=9814d4960
     .then(data =>{
         console.log(data);
         console.log(data.main.temp);
-        temperature.textContent = "Temperature :"
+        temperature.textContent = "Temperature: "+data.main.temp
     })
