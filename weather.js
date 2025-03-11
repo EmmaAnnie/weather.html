@@ -7,4 +7,6 @@ fetch("https://api.openweathermap.org/data/2.5/weather?q=Calgary&appid=9814d4960
         temperature.textContent = "Temperature: "+data.main.temp+"\u00B0C";
         description.textContent = "Description: "+data.weather[0].description;
         humidity.textContent = "Humidity: "+data.main.humidity;
+        high.textContent = "High: "+data.main.temp_max+"\u00B0C";
+        low.textContent = "Low: "+data.main.temp_min+"\u00B0C";
     })
